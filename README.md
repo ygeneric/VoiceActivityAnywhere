@@ -15,16 +15,17 @@ this is a client-side check, so the plugin patches it out. no settings, just tur
 ### easy way (windows)
 
 1. install [git](https://git-scm.com) and [node](https://nodejs.org)
-2. right click `install.ps1` and pick "run with powershell"
-3. restart discord and enable **VoiceActivityAnywhere** in plugin settings
-4. set your input mode to voice activity
+2. download [install.ps1](https://github.com/ygeneric/VoiceActivityAnywhere/blob/main/install.ps1)
+3. right click `install.ps1` and pick "run with powershell"
+4. restart discord and enable **VoiceActivityAnywhere** in plugin settings
+5. set your input mode to voice activity
 
 the script clones vencord to `%USERPROFILE%\Vencord`, adds the plugin, builds, and injects.
 
 if windows blocks the script, run this in powershell from the same folder:
 
 ```
-powershell -ExecutionPolicy Bypass -File install.ps1
+powershell -ExecutionPolicy Bypass -File your/path/to/install.ps1
 ```
 
 ### manual way
